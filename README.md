@@ -8,6 +8,13 @@ Sau đó cần tải file .ova của Labtainer (Tìm kiếm trên google).
 
 Chạy file .ova đó và nó sẽ tự động mở VMware/Virtual Box và tạo máy ảo Labtainer.
 
+> [!NOTE]  
+> Sau khi cài đặt máy ảo, sinh viên cần:
+> - Cài đặt và kích hoạt các bài lab
+> - Thực hành các bài lab thông qua hướng dẫn
+> 
+> Sinh viên xem outline của file README này để thực hiện.
+
 
 # Hướng dẫn tải và kích hoạt các bài lab
 
