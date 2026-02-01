@@ -1,4 +1,15 @@
 
+# Stenography Lab Series  <!-- omit from toc -->
+![Audio Steganography Banner](https://img.shields.io/badge/Steganography-Audio-C5BAFF)
+![License](https://img.shields.io/badge/License-MIT-B0DB9C)
+![Python](https://img.shields.io/badge/Python-3\.x-C4D9FF?logo=python)
+![Labtainer](https://img.shields.io/badge/Platform-Labtainer-B0DB9C?style=flat-square&logo=virtualbox&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Used-2496ED?style=flat-square&logo=docker&logoColor=white)
+![OS](https://img.shields.io/badge/OS-Ubuntu-E9433F?style=flat-square&logo=ubuntu&logoColor=white)
+
+
+
+## TOC <!-- omit from toc -->
 - [Installation](#installation)
 - [Hướng dẫn tải và kích hoạt các bài lab](#hướng-dẫn-tải-và-kích-hoạt-các-bài-lab)
   - [Ảnh (6 bài)](#ảnh-6-bài)
