@@ -1,5 +1,4 @@
-# Table of contents
-- [Table of contents](#table-of-contents)
+
 - [Installation](#installation)
 - [Hướng dẫn tải và kích hoạt các bài lab](#hướng-dẫn-tải-và-kích-hoạt-các-bài-lab)
   - [Ảnh (6 bài)](#ảnh-6-bài)
@@ -26,10 +25,11 @@
     - [2b. extract-video-dct](#2b-extract-video-dct)
     - [dct-video-stego](#dct-video-stego)
     - [dct-video-extract](#dct-video-extract)
-    - [Phát hiện giấu tin (2 bài)](#phát-hiện-giấu-tin-2-bài)
-    - [](#)
-    - [Tấn công (3 bài)](#tấn-công-3-bài)
-    - [](#-1)
+    - [Upcoming...](#upcoming)
+  - [Phát hiện giấu tin (2 bài)](#phát-hiện-giấu-tin-2-bài)
+    - [Upcoming...](#upcoming-1)
+  - [Tấn công (3 bài)](#tấn-công-3-bài)
+    - [Upcoming...](#upcoming-2)
   - [Ứng dụng (2 bài)](#ứng-dụng-2-bài)
     - [1. stego-basic-dwt-watermark](#1-stego-basic-dwt-watermark)
     - [2. stegano-attack-bwfw-echo](#2-stegano-attack-bwfw-echo)
@@ -395,13 +395,14 @@ sau đó gõ lệnh sau để kích hoạt:
 ```
 labtainer -r dct-video-extract
 ```
+### Upcoming...
 
-### Phát hiện giấu tin (2 bài)
-###
+## Phát hiện giấu tin (2 bài)
+### Upcoming...
 
 
-### Tấn công (3 bài)
-###
+## Tấn công (3 bài)
+### Upcoming...
 
 
 
