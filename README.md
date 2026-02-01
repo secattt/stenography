@@ -1,4 +1,3 @@
-âm thanh: 8; video: 8; ảnh: 5; tấn công: 3, ứng dụng 2:; phát hiện 1, 2
 
 # Installation
 Để bắt đầu chạy Lab, trước tiên cần tải VMware/Virtual Box.
@@ -41,6 +40,7 @@ sau đó gõ lệnh sau để kích hoạt:
 labtainer -r stego-image-code-lsb
 ```
 
+> Bài 1a và 1b có nội dung thực hành tương tự, nếu không tải được bài 1a, có thể tải bài 1b
 
 
 ### 1b. stego_lsb_image
@@ -259,15 +259,146 @@ Kích hoạt:
 labtainer -r steg-fhss-extract
 ```
 
-## Video
+## Video (8 bài)
 
-### 1. 
+### 1a. stego-energy-embed
+Tên bài: Giấu tin trong video dựa trên sự khác biệt năng lượng (DEW) và hệ số  DCT
+
+Độ khó: Mức 2
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/video/stego-energy-embed.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+sau đó gõ lệnh sau để kích hoạt:
+
+```
+labtainer -r stego-energy-embed
+```
+> Bài 1a và 1b có nội dung thực hành tương tự, nếu không tải được bài 1a, có thể tải bài 1b
+
+### 2a. extract-energy-extract
+Tên bài: Tách tin trong video dựa trên sự khác biệt năng lượng (DEW) và hệ số  DCT
+
+Độ khó: Mức 2
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/video/extract-energy-extract.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+sau đó gõ lệnh sau để kích hoạt:
+
+```
+labtainer -r extract-energy-extract
+```
+> Bài 2a và 2b có nội dung thực hành tương tự, nếu không tải được bài 2a, có thể tải bài 2b
+
+### 1b. video-stego-dct
+Tên bài: Giấu tin trong video dựa trên sự khác biệt năng lượng  (DEW - Difference Energy Watermarking) trong cùng một khung hình sử dụng DCT
+
+Độ khó: Mức 2
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/video/video-stego-dct.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+
+sau đó gõ lệnh sau để kích hoạt:
+
+```
+labtainer -r video-stego-dct
+```
+
+### 2b. extract-video-dct
+Tên bài: Tách tin trong video dựa trên sự khác biệt năng lượng  trong cùng một khung hình sử dụng DCT 
+
+Độ khó: Mức 2
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/video/extract-video-dct.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+
+sau đó gõ lệnh sau để kích hoạt:
+
+```
+labtainer -r extract-video-dct
+```
+
+### dct-video-stego
+Tên bài: Giấu tin vào hệ số DC-AC (DCT) của video sử dụng hệ số cân bằng độ lệch
+
+Độ khó: Mức 3
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/video/dct-video-stego.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+sau đó gõ lệnh sau để kích hoạt:
+```
+labtainer -r dct-video-stego    
+```
+
+### dct-video-extract
+Tên bài: Tách tin trong hệ số DC-AC (DCT) của video sử dụng hệ số cân bằng độ lệch
+
+Độ khó: Mức 3
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/video/dct-video-extract.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+sau đó gõ lệnh sau để kích hoạt:
+```
+labtainer -r dct-video-extract
+```
+
+### Phát hiện giấu tin (2 bài)
+###
+
+
+### Tấn công (3 bài)
+###
+
+
+
+
+## Ứng dụng (2 bài)
+### 1. stego-basic-dwt-watermark
+Tên bài: NHÚNG WATERMARK  VÀO ẢNH BẰNG THUẬT TOÁN DWT
+
+Độ khó: Mức 2
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/apps/stego-basic-dwt-watermark.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+sau đó gõ lệnh sau để kích hoạt:
+```
+labtainer -r stego-basic-dwt-watermark
+```
+
+### 2. stegano-attack-bwfw-echo
+Tên bài: TẤN CÔNG NHÚNG MỘT SCRIPT ĐỘC HẠI TRONG ÂM THANH SỬ DỤNG THUẬT TOÁN BACKWARD-FORWARD ECHO HIDING
+
+Độ khó: Mức 3
+
+Gõ lệnh sau để tải bài lab về:
+```
+curl -L https://github.com/secattt/stenography/raw/refs/heads/main/apps/stegano-attack-bwfw-echo.tar | tar -xf - -C ~/labtainer/trunk/labs/
+```
+sau đó gõ lệnh sau để kích hoạt:
+```
+labtainer -r stegano-attack-bwfw-echo
+```
+
 
 
 # Hướng đẫn thực hành
-
 - Với mỗi bài lab sau khi tải về và kích hoạt tại bước trước đó, sinh viên sẽ được hỏi email, tại đây sinh viên gõ mã sinh viên của mình.
 - Để hoàn thành nhiệm vụ trong từng bài, sinh viên làm theo hướng dẫn trong `docs` tương ứng (xem các folder của repo này).
 - Cuối cùng gõ lệnh `checkwork` tại terminal ban đầu để kiểm tra kết quả làm bài.
 - Sinh viên nộp file `.lab` trên hệ thống để chấm điểm.
 - Để kết thúc bài lab, gõ lệnh `stoplab <mã-bài-lab>` tại terminal ban đầu.
+
+---
