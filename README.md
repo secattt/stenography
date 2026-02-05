@@ -619,7 +619,7 @@ sau đó gõ lệnh sau để kích hoạt:
 labtainer -r stegano-attack-bwfw-echo
 ```
 ### 3.stego_code_bpcs_attack1
-Tên bài: TẤN CÔNG LÊN TIN ĐƯỢC GIẤU BỞI PHƯƠNG PHÁP MẶT PHẲNG BIT
+Tên bài: Tìm hiểu tấn công phá hoại dữ liệu giấu tin trong video Gaussian Blur
 
 Độ khó: Mức 3
 
