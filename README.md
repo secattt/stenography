@@ -28,20 +28,20 @@
     - [6. dsss_cdma (checked)](#6-dsss_cdma-checked)
     - [7. steg-fhss-embed (checked)](#7-steg-fhss-embed-checked)
     - [8. steg-fhss-extract (checked)](#8-steg-fhss-extract-checked)
-  - [Video (8 bài)](#video-8-bài)
-    - [1a. stego-energy-embed (checked)](#1a-stego-energy-embed-checked)
-    - [2a. stego-energy-extract (checked)](#2a-stego-energy-extract-checked)
-    - [1b. video-stego-dct](#1b-video-stego-dct)
-    - [2b. extract-video-dct](#2b-extract-video-dct)
-    - [3. dct-video-stego (checked)](#3-dct-video-stego-checked)
-    - [4. dct-video-extract (checked)](#4-dct-video-extract-checked)
-    - [5. bpcs_steg](#5-bpcs_steg)
-    - [6. bpcs_extract](#6-bpcs_extract)
-    - [7. video_qp_stego](#7-video_qp_stego)
-    - [8. video_extract_qp_stego](#8-video_extract_qp_stego)
+  - [Video (10 bài)](#video-10-bài)
+    - [1. stego-energy-embed (checked)](#1-stego-energy-embed-checked)
+    - [2. stego-energy-extract (checked)](#2-stego-energy-extract-checked)
+    - [3. video-stego-dct (checked)](#3-video-stego-dct-checked)
+    - [4. extract-video-dct (checked)](#4-extract-video-dct-checked)
+    - [5. dct-video-stego (checked)](#5-dct-video-stego-checked)
+    - [6. dct-video-extract (checked)](#6-dct-video-extract-checked)
+    - [7. stego_code_bpcs_lsb (checked)](#7-stego_code_bpcs_lsb-checked)
+    - [8. bpcs_extract_1 (checked)](#8-bpcs_extract_1-checked)
+    - [9. video_qp_stego (checked)](#9-video_qp_stego-checked)
+    - [10. video_extract_qp_stego (checked)](#10-video_extract_qp_stego-checked)
   - [Phát hiện giấu tin (2 bài)](#phát-hiện-giấu-tin-2-bài)
-    - [1. stegano-detect-bwfw-echo-hiding](#1-stegano-detect-bwfw-echo-hiding)
-    - [2. video_detect_qp_stego](#2-video_detect_qp_stego)
+    - [1. stegano-detect-bwfw-echo-hiding (checked)](#1-stegano-detect-bwfw-echo-hiding-checked)
+    - [2. video_detect_qp_stego (checked)](#2-video_detect_qp_stego-checked)
   - [Tấn công (3 bài)](#tấn-công-3-bài)
     - [1. video-stego-attack-lsb-1 (checked)](#1-video-stego-attack-lsb-1-checked)
     - [2. stegano-attack-bwfw-echo (checkd)](#2-stegano-attack-bwfw-echo-checkd)
@@ -384,9 +384,9 @@ Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [T
 
 ---
 
-## Video (8 bài)
+## Video (10 bài)
 
-### 1a. stego-energy-embed (checked)
+### 1. stego-energy-embed (checked)
 
 Tên bài: Giấu tin trong video dựa trên sự khác biệt năng lượng (DEW) và hệ số DCT
 
@@ -406,9 +406,7 @@ labtainer -r stego-energy-embed
 
 Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [Tại đây](video/docs/stego-energy-embed.docx)
 
-> Bài 1a và 1b có nội dung thực hành tương tự, nếu không tải được bài 1a, có thể tải bài 1b
-
-### 2a. stego-energy-extract (checked)
+### 2. stego-energy-extract (checked)
 
 Tên bài: Tách tin trong video dựa trên sự khác biệt năng lượng (DEW) và hệ số DCT
 
@@ -428,9 +426,7 @@ labtainer -r stego-energy-extract
 
 Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [Tại đây](video/docs/extract-energy-extract.docx)
 
-> Bài 2a và 2b có nội dung thực hành tương tự, nếu không tải được bài 2a, có thể tải bài 2b
-
-### 1b. video-stego-dct
+### 3. video-stego-dct (checked)
 
 Tên bài: Giấu tin trong video dựa trên sự khác biệt năng lượng (DEW - Difference Energy Watermarking) trong cùng một khung hình sử dụng DCT
 
@@ -450,7 +446,7 @@ labtainer -r video-stego-dct
 
 Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [Tại đây](video/docs/video-stego-dct.docx)
 
-### 2b. extract-video-dct
+### 4. extract-video-dct (checked)
 
 Tên bài: Tách tin trong video dựa trên sự khác biệt năng lượng trong cùng một khung hình sử dụng DCT
 
@@ -470,7 +466,7 @@ labtainer -r extract-video-dct
 
 Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [Tại đây](video/docs/extract-video-dct.docx)
 
-### 3. dct-video-stego (checked)
+### 5. dct-video-stego (checked)
 
 Tên bài: Giấu tin vào hệ số DC-AC (DCT) của video sử dụng hệ số cân bằng độ lệch
 
@@ -490,7 +486,7 @@ labtainer -r dct-video-stego
 
 Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [Tại đây](video/docs/dct-video-stego.docx)
 
-### 4. dct-video-extract (checked)
+### 6. dct-video-extract (checked)
 
 Tên bài: Tách tin trong hệ số DC-AC (DCT) của video sử dụng hệ số cân bằng độ lệch
 
@@ -510,25 +506,25 @@ labtainer -r dct-video-extract
 
 Sau đó sinh viên hoàn thành các nhiệm vụ theo hướng dẫn tại: [Tại đây](video/docs/dct-video-extract.docx)
 
-### 5. bpcs_steg
+### 7. stego_code_bpcs_lsb (checked)
 
-Tên bài: GIẤU VÀ TÁCH TIN TRÊN VIDEO SỬ DỤNG PHƯƠNG PHÁP MẶT PHẲNG BIT
+Tên bài: Tìm hiểu giấu tin bằng phương pháp BPCS với LSB
 
-Độ khó: Mức 3
+Độ khó: Mức 2
 
 Gõ lệnh sau để tải bài lab về:
 
 ```
-imodule https://github.com/secattt/stenography/raw/refs/heads/main/video/bpcs_steg.tar
+imodule https://github.com/secattt/stenography/raw/refs/heads/main/video/stegano_code_bpcs_lsb.tar
 ```
 
 sau đó gõ lệnh sau để kích hoạt:
 
 ```
-labtainer -r bpcs_steg
+labtainer -r stego_code_bpcs_lsb
 ```
 
-### 6. bpcs_extract
+### 8. bpcs_extract_1 (checked)
 
 Tên bài: TÁCH TIN TRÊN VIDEO SỬ DỤNG PHƯƠNG PHÁP MẶT PHẲNG BIT
 
@@ -537,16 +533,16 @@ Tên bài: TÁCH TIN TRÊN VIDEO SỬ DỤNG PHƯƠNG PHÁP MẶT PHẲNG BIT
 Gõ lệnh sau để tải bài lab về:
 
 ```
-imodule https://github.com/secattt/stenography/raw/refs/heads/main/video/bpcs_extract.tar
+imodule https://github.com/secattt/stenography/raw/refs/heads/main/video/bpcs_extract_1.tar
 ```
 
 sau đó gõ lệnh sau để kích hoạt:
 
 ```
-labtainer -r bpcs_extract
+labtainer -r bpcs_extract_1
 ```
 
-### 7. video_qp_stego
+### 9. video_qp_stego (checked)
 
 Tên bài: Giấu tin trong video H.264 dựa vào Quantization Parameter
 
@@ -565,7 +561,7 @@ labtainer -r video_qp_stego
 
 ```
 
-### 8. video_extract_qp_stego
+### 10. video_extract_qp_stego (checked)
 
 Tên bài: Tách tin trong video H.264 dựa vào Quantization Parameter
 
@@ -585,7 +581,7 @@ labtainer -r video_extract_qp_stego
 
 ## Phát hiện giấu tin (2 bài)
 
-### 1. stegano-detect-bwfw-echo-hiding
+### 1. stegano-detect-bwfw-echo-hiding (checked)
 
 Tên bài: PHÁT HIỆN FILE ÂM THANH BỊ GIẤU TIN BỞI THUẬT TOÁN BACKWARD-FORWARD ECHO HIDING
 
@@ -603,7 +599,7 @@ sau đó gõ lệnh sau để kích hoạt:
 labtainer -r stegano-detect-bwfw-echo-hiding
 ```
 
-### 2. video_detect_qp_stego
+### 2. video_detect_qp_stego (checked)
 
 Tên bài: Phát hiện giấu tin sử dụng Quantization Parameter trong video H.264
 
